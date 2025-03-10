@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+@font-face{
+    font-family: "monoton-regular";
+    src: url("fonts/Monoton-Regular.ttf");
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.left{
+    background-color: rgb(20, 145, 177);
+    float: left;
+    width: 50%;
+}
+
+.left .container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.left .container .content{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    width: 550px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.left .container .content h3{
+    font-size: 30px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.left .container .content h3 span{
+    background-color: rgb(20, 145, 177);
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+.left .container .content h1{
+    font-size: 50px;
+    color: rgb(214, 195, 195);
+}
+
+.left .container .content h1 span{
+    color: crimson;
+}
+
+.left .container .content p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.left .container .content .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: rgb(20, 145, 177);
+    color: #fff;
+    margin: 0 5px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.left .container .content .btn:hover{
+    background: rgb(214, 195, 195);
+}
+
+.left .form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.left .form-container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+    margin-left: 10px;
+}
+
+.left .form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.left .form-container form input,
+.left .form-container form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.left .form-container form select option{
+    background: #fff;
+}
+
+.left .form-container form .form-btn{
+    background:  rgb(20, 145, 177);
+    color: #eee;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.left .form-container form .form-btn:hover{
+    background: rgb(214, 195, 195);
+    color: #fff;
+}
+
+.left .form-container form a{
+    color: rgb(20, 145, 177);
+}
+
+.left .form-container form a:hover{
+    color: rgb(214, 195, 195);
+}
+
+.left .form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.left .form-container form p a{
+    color:  rgb(20, 145, 177);
+}
+
+.left .form-container form p a:hover{
+    color:  rgb(214, 195, 195);
+}
+
+.right{
+    float: right;
+    width: 50%;
+    
+}
+
+.right .Logo{
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    margin: 25% 25%;
+    filter: drop-shadow(30px 10px 4px #515157);
+}
